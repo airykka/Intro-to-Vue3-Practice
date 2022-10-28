@@ -20,7 +20,7 @@ app.component("review-form", {
     </select>
 
     <label for="recommend">Would you recommend this product?</label>
-    <select id="rating" v-model="recommend">
+    <select id="recommend" v-model="recommend">
       <option value="Yes">Yes</option>
       <option value="No">No</option>
     </select>
